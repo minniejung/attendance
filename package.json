@@ -1,0 +1,23 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd nft && npm run start",
+    "install": "cd nft && npm install && cd .. && cd contract && npm install",
+    "deploy:contract": "cd contract && npm run deploy",
+    "deploy:client": "cd nft && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insu-Lee/nft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insu-Lee/nft/issues"
+  },
+  "homepage": "https://github.com/Insu-Lee/nft#readme"
+}
